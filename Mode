@@ -1,0 +1,6 @@
+# How to find the mode from a list
+import statistics
+myList = [1,5,7,9,11,1,13,22,45,11,13,22,45,72]
+myList.append(22) # adds 22 into the list
+mode = statistics.mode(myList)
+print(mode)
